@@ -1,1 +1,1 @@
-shell test
+simple shell test
