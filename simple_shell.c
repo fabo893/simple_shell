@@ -12,6 +12,7 @@ int main(void)
 	struct stat st;
 	int status;
 	char *clean_input;
+	char *argv[256] = {NULL};
 	/* size_t input; */
 
 
@@ -36,7 +37,7 @@ int main(void)
 		clean_input = _strremovechar(lineptr, '\n');
 
                 /* Declarando el argument vector */
-		char *argv[] = {clean_input, NULL};
+		argv[0] = clean_input;
 
                 /* Creando el hijo que ejecutara el comando que escribimos */
 		child_pid = fork();
