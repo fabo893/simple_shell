@@ -9,7 +9,7 @@
  * Return: On Success, always 0.
  */
 
-int main(int argc, char **argv[], char **env[])
+int main(void)
 {
 	char *user_input;
 	size_t buffersize = 256;
