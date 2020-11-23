@@ -1,15 +1,20 @@
 #include "holberton.h"
 
-int main(void)
+/**
+ * main - CLI and start program
+ * @argc: Argument count
+ * @argv: Argument vector
+ * @env: Enviroment variable
+ *
+ * Return: status
+ */
+
+int main(int argc, char **argv[], char **env[])
 {
 	char *user_input;
 	size_t buffersize = 256;
 	char *clean_input;
 	int status;
-	pid_t pid;
-
-
-        pid = getpid();
 
 	while (1)
 	{
@@ -21,10 +26,10 @@ int main(void)
 			free(user_input);
 			return (-1);
 		}
+
 		if (getline(&user_input, &buffersize, stdin) == EOF)
 		{
 			free(user_input);
-			kill(pid, SIGKILL);
 			break;
 		}
 		else
@@ -35,5 +40,5 @@ int main(void)
 		}
 		wait(&status);
 	}
-       	return (0);
+	return (0);
 }
