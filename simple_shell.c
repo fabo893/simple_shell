@@ -1,12 +1,12 @@
 #include "holberton.h"
 
 /**
- * main - CLI and start program
- * @argc: Argument count
- * @argv: Argument vector
- * @env: Enviroment variable
+ * main - CLI and start program.
+ * @argc: Argument count.
+ * @argv: Argument vector.
+ * @env: Enviroment variable.
  *
- * Return: status
+ * Return: On Success, always 0.
  */
 
 int main(int argc, char **argv[], char **env[])
