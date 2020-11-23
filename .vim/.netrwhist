@@ -1,5 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/home/vagrant/holbertonschool-low_level_programming/0x07-pointers_arrays_strings'
 let g:netrw_dirhist_2='/home/vagrant/holbertonschool-low_level_programming/0x01-variables_if_else_while'
 let g:netrw_dirhist_3='/home/vagrant/holbertonschool-low_level_programming/0x00-hello_world'
+let g:netrw_dirhist_4='/home/vagrant/printf'
+let g:netrw_dirhist_5='/home/vagrant/holbertonschool-low_level_programming/0x12-singly_linked_lists'
+let g:netrw_dirhist_6='/home/vagrant/holbertonschool-low_level_programming/0x0E-structures_typedef'
+let g:netrw_dirhist_7='/home/vagrant/holbertonschool-low_level_programming/0x14-bit_manipulation'
