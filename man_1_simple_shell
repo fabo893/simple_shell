@@ -2,19 +2,47 @@
 .TH man 2 "24 November 2020" "0.32" "simple_shell man page"
 .SH NAME
 .B simple_shell
-- a simple UNIX command interpreter.
+-a simple UNIX command interpreter.
 .SH SYNOPSIS
 simple_shell
+.br
 .SH DESCRIPTION
-Eniac was Turing-complete, and able to solve "a large class of numerical problems" through reprogram\
-ming.
+.B hsh [command file [argument ..]]
+is a shell compatible command language unterpreter that executes
+.br
+command read from the standard input or from a file
+.B hsh
+can be used
+.br
+in both interactive and non-interactive modes
+.PP
+.br
+For the interactive mode launch the executable file in your terminal
+\f[B]\&./hsh\f[].
+.br
+.PP
+It will display the following prompt \f[B]$ \f[].
+Then it will read from the users
+input to execute the given commands.
+.PP
+.br
+For the non\-interactive mode redirect with a pipeline (\f[B]|\f[]) any
+precise
+.br
+output that would specify either the name or the path of the command to
+be
+interpreted by \f[B]\&./hsh\f[]
+.br
+.PP
+Eniac was Turing-complete, and able to solve "a large class of numerical problems" through reprogramming.
 .SH OPTIONS
-.B eniac
-does not take any options.
+.B Ctrl+D
+: Exits Interactive mode
 .SH SEE ALSO
+.br
 ENIAC could be programmed to perform complex sequences of operations(2), including loops(2), branche\
 s(2), and subroutines(2).
 .SH BUGS
 No known bugs.
 .SH AUTHOR
-University of Pennsylvania.
+Jose Fabian Rosa Santos and Sergio vera Echevestre.
