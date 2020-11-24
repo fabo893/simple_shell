@@ -1,12 +1,10 @@
 #include "holberton.h"
+#include <signal.h>
 
 /**
- * main - CLI and start program.
- * @argc: Argument count.
- * @argv: Argument vector.
- * @env: Enviroment variable.
+ * main - CLI and start program
  *
- * Return: On Success, always 0.
+ * Return: status
  */
 
 int main(void)
@@ -15,6 +13,8 @@ int main(void)
 	size_t buffersize = 256;
 	char *clean_input;
 	int status;
+
+	signal(SIGINT, catch_c_c);
 
 	while (1)
 	{
@@ -26,11 +26,10 @@ int main(void)
 			free(user_input);
 			return (-1);
 		}
-
 		if (getline(&user_input, &buffersize, stdin) == EOF)
 		{
 			free(user_input);
-			break;
+			return (0);
 		}
 		else
 		{
@@ -40,5 +39,5 @@ int main(void)
 		}
 		wait(&status);
 	}
-	return (0);
+	exit(1);
 }
