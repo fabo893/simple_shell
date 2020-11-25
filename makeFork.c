@@ -1,8 +1,7 @@
 #include "holberton.h"
 
 /**
- * makeFork: create child processes
- * @pid: child
+ * makeFork - create child processes
  * @tokens: pointer to pointer
  * Return: success one
 */
