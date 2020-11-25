@@ -1,5 +1,12 @@
 #include "holberton.h"
 
+/**
+ * makeFork: create child processes
+ * @pid: child
+ * @tokens: pointer to pointer
+ * Return: success one
+*/
+
 int makeFork(char **tokens)
 {
 	pid_t pid;
