@@ -17,7 +17,7 @@ char **split(char *input);
 int exeprg(char **tokens);
 int _sexit(void);
 char *str_builtins[1];
-int (*fun_builtins[1]) (char **);
+int (*fun_builtins[1]) (void);
 int num_builtins(void);
 int makeFork(char **tokens);
 

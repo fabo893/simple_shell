@@ -13,7 +13,7 @@ int _cd(char **tokens);
 char *str_builtins[] = {"exit"};
 
 
-int (*fun_builtins[])(char **) = {&_sexit};
+int (*fun_builtins[])(void) = {&_sexit};
 
 
 

@@ -17,7 +17,7 @@ int exeprg(char **tokens)
 	{
 		if (strcmp(tokens[0], str_builtins[idx]) == 0)
 		{
-			return ((*fun_builtins[idx])(tokens));
+			return(fun_builtins[idx]());
 		}
 	}
 
