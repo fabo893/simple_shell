@@ -19,3 +19,15 @@ int _strcmp(char *s1, char *s2)
 	}
 	return (0);
 }
+
+
+/**
+ * handler - handles signals and write the prompt
+ * @sig: signal to handle
+ * Return: nothing
+ */
+void handler(int sig)
+{
+	(void)sig;
+	write(STDOUT_FILENO, "\n$ ", 3);
+}

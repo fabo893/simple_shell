@@ -6,16 +6,25 @@
 void launchPrompt(void)
 {
 	char *input;
+	char *prompt = "$ ";
 	char **tokens;
 	int status;
 
-	do {
-		printf("$ ");
+	if (isatty(STDIN_FILENO))
+		write(STDOUT_FILENO, prompt, 2);
+
+	signal(SIGINT, handler);
+	while (status)
+	{
 		input = rdcmd();
 		tokens = split(input);
 		status = exeprg(tokens);
 
+		if (isatty(STDIN_FILENO))
+			write(STDOUT_FILENO, prompt, 2);
+
+
 		free(input);
 		free(tokens);
-	} while (status);
+	}
 }
