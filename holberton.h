@@ -22,5 +22,6 @@ int (*fun_builtins[1]) (void);
 int num_builtins(void);
 int makeFork(char **tokens);
 void handler(int sig);
+void end_of_file(char *buffer);
 
 #endif /* HOLBERTON_H */

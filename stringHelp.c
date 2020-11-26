@@ -31,3 +31,18 @@ void handler(int sig)
 	(void)sig;
 	write(STDOUT_FILENO, "\n$ ", 3);
 }
+
+/**
+ * end_of_file - function to handle ctrl+c interrupt signal
+ * writes a new line, then frees the buffer from getline
+ * @buffer: buffer array created by new line
+ *
+ * Return: void
+ */
+void end_of_file(char *buffer)
+{
+	if (isatty(STDIN_FILENO))
+		write(STDOUT_FILENO, "\n", 1);
+	free(buffer);
+	exit(0);
+}
