@@ -1,5 +1,10 @@
 #include "holberton.h"
 
+/**
+ * *rdcmd - get the user input.
+ *
+ * Return: On success, return de user input.
+ */
 char *rdcmd(void)
 {
 
@@ -9,7 +14,7 @@ char *rdcmd(void)
 	user_input = malloc(sizeof(char) * bufsize);
 	if (user_input == NULL)
 	{
-		free (user_input);
+		free(user_input);
 		return (0);
 	}
 

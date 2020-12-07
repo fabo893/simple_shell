@@ -10,11 +10,14 @@
 # Last Search Pattern:
 ~MSle0~/* Built ins *
 
+# Last Substitute String:
+$
+
 # Command Line History (newest to oldest):
 :q
 :wq
-:wwq
 :q!
+:wwq
 :wq!
 
 # Search String History (newest to oldest):
@@ -27,122 +30,450 @@
 # Input Line History (newest to oldest):
 
 # Registers:
-""-	CHAR	0
+""0	CHAR	0
+	.
+"-	CHAR	0
 	.
 
 # File marks:
-'0  33  0  ~/musicianshell/wait.c
-'1  26  45  ~/gates_of_shell/utils/strutils.c
-'2  43  25  ~/gates_of_shell/main.c
-'3  21  0  ~/gates_of_shell/main.c
-'4  11  1  ~/gates_of_shell/main.c
-'5  42  0  ~/gates_of_shell/main.c
-'6  28  0  ~/gates_of_shell/main.c
-'7  76  15  ~/gates_of_shell/utils/strutils.c
-'8  129  77  ~/gates_of_shell/utils/strutils.c
-'9  61  0  ~/gates_of_shell/utils/strutils.c
+'0  40  0  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
+'1  3  18  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
+'2  75  46  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
+'3  66  46  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
+'4  80  0  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
+'5  79  17  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
+'6  42  17  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
+'7  1  1  ~/holbertonschool-low_level_programming/0x0B-malloc_free/1-strdup.c
+'8  23  0  ~/holbertonschool-low_level_programming/0x0B-malloc_free/1-main.c
+'9  17  24  ~/holbertonschool-low_level_programming/0x0B-malloc_free/holberton.h
 
 # Jumplist (newest first):
--'  33  0  ~/musicianshell/wait.c
--'  1  0  ~/musicianshell/wait.c
--'  26  45  ~/gates_of_shell/utils/strutils.c
--'  64  31  ~/gates_of_shell/utils/strutils.c
--'  1  0  ~/gates_of_shell/utils/strutils.c
--'  43  25  ~/gates_of_shell/main.c
--'  1  0  ~/gates_of_shell/main.c
--'  21  0  ~/gates_of_shell/main.c
--'  11  1  ~/gates_of_shell/main.c
--'  42  0  ~/gates_of_shell/main.c
--'  28  0  ~/gates_of_shell/main.c
--'  76  15  ~/gates_of_shell/utils/strutils.c
--'  129  77  ~/gates_of_shell/utils/strutils.c
--'  61  0  ~/gates_of_shell/utils/strutils.c
--'  62  1  ~/gates_of_shell/utils/strutils.c
--'  38  13  ~/gates_of_shell/utils/strutils.c
--'  36  29  ~/gates_of_shell/utils/strutils.c
--'  35  0  ~/gates_of_shell/utils/strutils.c
--'  44  42  ~/gates_of_shell/utils/strutils.c
--'  48  7  ~/gates_of_shell/utils/strutils.c
--'  2  0  ~/gates_of_shell/utils/strutils.c
--'  42  0  ~/gates_of_shell/utils/strutils.c
--'  34  22  ~/gates_of_shell/utils/strutils.c
--'  38  0  ~/gates_of_shell/main.c
--'  8  22  ~/gates_of_shell/utils/strutils.c
--'  7  0  ~/gates_of_shell/head.h
--'  1  0  ~/gates_of_shell/head.h
--'  29  27  ~/gates_of_shell/utils/strutils.c
--'  5  0  ~/gates_of_shell/head.h
--'  37  13  ~/gates_of_shell/main.c
--'  9  5  ~/gates_of_shell/head.h
--'  4  32  ~/gates_of_shell/strutils.c
--'  1  0  ~/gates_of_shell/strutils.c
--'  8  18  ~/gates_of_shell/main.c
--'  4  0  ~/gates_of_shell/README.md
--'  1  0  ~/gates_of_shell/README.md
--'  29  0  ~/musicianshell/makefork.c
--'  1  0  ~/musicianshell/makefork.c
--'  58  0  ~/musicianshell/_simple_shell.c
--'  1  0  ~/musicianshell/_simple_shell.c
--'  23  0  ~/holbertonschool-low_level_programming/0x09-static_libraries/0-strcat.c
--'  1  0  ~/holbertonschool-low_level_programming/0x09-static_libraries/0-strcat.c
--'  22  0  ~/holbertonschool-low_level_programming/0x09-static_libraries/2-strncpy.c
--'  1  0  ~/holbertonschool-low_level_programming/0x09-static_libraries/2-strncpy.c
--'  1  0  ~/holbertonschool-low_level_programming/0x09-static_libraries/holberton.h
--'  29  0  ~/holbertonschool-low_level_programming/0x09-static_libraries/holberton.h
--'  26  24  ~/holbertonschool-low_level_programming/0x09-static_libraries/holberton.h
--'  24  0  ~/holbertonschool-low_level_programming/0x09-static_libraries/0-memset.c
--'  1  0  ~/holbertonschool-low_level_programming/0x09-static_libraries/0-memset.c
--'  21  0  ~/holbertonschool-low_level_programming/0x09-static_libraries/2-strlen.c
--'  1  0  ~/holbertonschool-low_level_programming/0x09-static_libraries/2-strlen.c
--'  28  20  ~/holbertonschool-low_level_programming/0x09-static_libraries/holberton.h
--'  27  31  ~/holbertonschool-low_level_programming/0x09-static_libraries/holberton.h
--'  18  0  ~/holbertonschool-low_level_programming/0x09-static_libraries/3-strncpy.c
--'  1  0  ~/holbertonschool-low_level_programming/0x09-static_libraries/3-strncpy.c
--'  5  0  ~/holbertonschool-low_level_programming/0x09-static_libraries/100-atoi.c
--'  1  0  ~/holbertonschool-low_level_programming/0x09-static_libraries/100-atoi.c
--'  6  0  ~/holbertonschool-low_level_programming/0x09-static_libraries/100-atoi.c
--'  2  0  ~/holbertonschool-low_level_programming/0x09-static_libraries/100-atoi.c
--'  4  0  ~/holbertonschool-low_level_programming/0x09-static_libraries/100-atoi.c
--'  3  25  ~/holbertonschool-low_level_programming/0x09-static_libraries/100-atoi.c
--'  2  146  ~/musicianshell/gcc_compile
--'  1  0  ~/musicianshell/gcc_compile
--'  75  0  ~/musicianshell/main.c
--'  1  0  ~/musicianshell/main.c
--'  42  10  ~/musicianshell/_simple_shell.c
--'  1  0  ~/musicianshell/signals.c
--'  7  0  ~/musicianshell/strtok.c
--'  1  0  ~/musicianshell/strtok.c
--'  91  0  ~/musicianshell/strings.c
--'  1  0  ~/musicianshell/strings.c
--'  15  0  ~/musicianshell/mallocfree.c
--'  1  0  ~/musicianshell/mallocfree.c
--'  27  0  ~/musicianshell/holberton.h
--'  1  0  ~/musicianshell/holberton.h
--'  105  0  ~/musicianshell/strtok.c
--'  23  21  ~/musicianshell/holberton.h
--'  39  0  ~/musicianshell/holberton.h
--'  31  53  ~/musicianshell/holberton.h
--'  23  0  ~/musicianshell/strtok.c
--'  115  0  ~/musicianshell/strtok.c
--'  29  46  ~/musicianshell/holberton.h
--'  27  1  ~/musicianshell/_simple_shell.c
--'  15  14  ~/musicianshell/_simple_shell.c
--'  35  0  ~/musicianshell/holberton.h
--'  77  0  ~/musicianshell/built.c
--'  1  0  ~/musicianshell/built.c
--'  1  2  ~/musicianshell/shell.c
--'  34  0  ~/musicianshell/holberton.h
--'  16  7  ~/musicianshell/execbin.c
--'  1  0  ~/musicianshell/execbin.c
--'  1  0  ~/musicianshell/simple_shell.c
--'  3  0  ~/musicianshell/simple_shell.c
--'  3  0  ~/musicianshell/launchPrompt.c
--'  1  0  ~/musicianshell/launchPrompt.c
--'  16  0  ~/musicianshell/holberton.h
--'  22  3  ~/musicianshell/wait.c
--'  17  18  ~/musicianshell/makefork.c
+-'  40  0  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
+-'  3  18  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
+-'  75  46  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
+-'  66  46  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
+-'  60  10  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
+-'  80  0  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
+-'  79  17  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
+-'  42  17  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
+-'  1  1  ~/holbertonschool-low_level_programming/0x0B-malloc_free/1-strdup.c
+-'  23  0  ~/holbertonschool-low_level_programming/0x0B-malloc_free/1-main.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x0B-malloc_free/1-main.c
+-'  17  24  ~/holbertonschool-low_level_programming/0x0B-malloc_free/holberton.h
+-'  1  0  ~/holbertonschool-low_level_programming/0x0B-malloc_free/holberton.h
+-'  19  0  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/8-print_array.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/8-print_array.c
+-'  106  0  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+-'  1  0  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+-'  18  10  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/8-print_array.c
+-'  37  0  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/8-print_array.c
+-'  122  0  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+-'  8  23  ~/holbertonschool-low_level_programming/0x0A-argc_argv/holberton.h
+-'  1  0  ~/holbertonschool-low_level_programming/0x0A-argc_argv/holberton.h
+-'  1  0  ~/holbertonschool-low_level_programming/0x0A-argc_argv/2-args.c
+-'  19  0  ~/holbertonschool-low_level_programming/0x0A-argc_argv/2-args.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x0A-argc_argv/1-args.c
+-'  15  31  ~/holbertonschool-low_level_programming/0x08-recursion/holberton.h
+-'  1  0  ~/holbertonschool-low_level_programming/0x08-recursion/holberton.h
+-'  53  0  ~/holbertonschool-low_level_programming/0x08-recursion/holberton.h
+-'  1  0  ~/holberton,h
+-'  1  0  ~/holberton
+-'  38  0  ~/100-main.c
+-'  1  0  ~/100-main.c
+-'  30  0  ~/100-wildcmp.c
+-'  1  0  ~/100-wildcmp.c
+-'  12  0  ~/holbertonschool-low_level_programming/0x08-recursion/7-is_palindrome.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x08-recursion/7-is_palindrome.c
+-'  1  1  ~/holbertonschool-low_level_programming/0x08-recursion/7-main.c
+-'  14  0  ~/holbertonschool-low_level_programming/0x08-recursion/holberton.h
+-'  31  0  ~/holbertonschool-low_level_programming/0x08-recursion/6-is_prime_number.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x08-recursion/6-is_prime_number.c
+-'  13  26  ~/holbertonschool-low_level_programming/0x08-recursion/holberton.h
+-'  30  0  ~/holbertonschool-low_level_programming/0x08-recursion/6-main.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x08-recursion/6-main.c
+-'  27  0  ~/holbertonschool-low_level_programming/0x08-recursion/55-sqrt_recursion.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x08-recursion/55-sqrt_recursion.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x08-recursion/5-sqrt_recursion.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x08-recursion/5-main.c
+-'  19  0  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/8-main.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/8-main.c
+-'  121  31  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+-'  1  0  ~/holbertonschool-low_level_programming/holberton.h
+-'  1  0  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/7-main.c
+-'  15  0  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/7-main.c
+-'  1  1  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/7-puts_half.c
+-'  120  25  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+-'  5  17  ~/holbertonschool-low_level_programming/0x06-pointers_arrays_strings/holberton.h
+-'  1  0  ~/holbertonschool-low_level_programming/0x06-pointers_arrays_strings/holberton.h
+-'  33  0  ~/holbertonschool-low_level_programming/0x06-pointers_arrays_strings/holberton.h
+-'  1  0  ~/holbertonschool-low_level_programming/0x06-pointers_arrays_strings/7-leet.c
+-'  1  0  ~/holbertonschool-low_level_programming
+-'  2  0  ~/test_shell/mainsh.c
+-'  1  0  ~/test_shell/mainsh.c
+-'  5  24  ~/test_shell/mainsh.c
+-'  3  22  ~/test_shell/input.c
+-'  22  23  ~/test_shell/input.c
+-'  1  0  ~/test_shell/input.c
+-'  13  11  ~/test_shell/mainsh.c
+-'  6  8  ~/test_shell/mainsh.c
+-'  1  0  ~/test_shell/header.h
+-'  4  0  ~/test_shell/input.c
+-'  7  18  ~/test_shell/header.h
+-'  9  21  ~/test_shell/header.h
+-'  28  14  ~/test_shell/input.c
+-'  8  17  ~/test_shell/mainsh.c
+-'  27  48  ~/test_shell/input.c
+-'  28  0  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/10-print_comb2.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/10-print_comb2.c
+-'  24  8  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
+-'  7  2  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
+-'  6  23  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
+-'  11  0  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
+-'  25  0  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb
+-'  13  27  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
+-'  19  0  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
+-'  16  1  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
+-'  2  0  ~/holbertonschool-low_level_programming/0x00-hello_world/main.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x00-hello_world/main.c
+-'  1  0  ~/holbertonschool-low_level_programming/0x00-hello_world/main.
+-'  2  34  ~/holbertonschool-low_level_programming/0x00-hello_world/100-intel
+-'  1  0  ~/holbertonschool-low_level_programming/0x00-hello_world/100-intel
+-'  5  0  ~/test_shell/prompt.c
+-'  1  0  ~/test_shell/prompt.c
+-'  14  1  ~/test_shell/mainsh.c
+-'  2  0  ~/test_shell/compile
 
 # History of marks within files (newest to oldest):
+
+> ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
+	"	40	0
+	^	3	19
+	.	3	18
+	+	41	19
+	+	42	17
+	+	79	17
+	+	82	0
+	+	79	17
+	+	64	47
+	+	66	46
+	+	71	29
+	+	75	46
+	+	40	0
+	+	3	18
+
+> ~/holbertonschool-low_level_programming/0x0B-malloc_free/1-strdup.c
+	"	1	1
+	^	1	2
+	.	1	1
+	+	34	0
+	+	1	1
+
+> ~/holbertonschool-low_level_programming/0x0B-malloc_free/1-main.c
+	"	23	0
+	^	23	1
+	.	23	0
+	+	23	0
+
+> ~/holbertonschool-low_level_programming/0x0B-malloc_free/holberton.h
+	"	17	24
+	^	17	25
+	.	17	0
+	+	15	35
+	+	16	0
+	+	13	57
+	+	17	0
+
+> ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/8-print_array.c
+	"	19	0
+	^	19	1
+	.	19	0
+	+	37	0
+	+	18	14
+	+	19	0
+
+> ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
+	"	106	0
+	^	122	0
+	.	122	0
+	+	120	0
+	+	121	0
+	+	122	5
+	+	122	0
+
+> ~/holbertonschool-low_level_programming/0x0A-argc_argv/holberton.h
+	"	8	23
+	^	8	24
+	.	8	0
+	+	8	0
+
+> ~/holbertonschool-low_level_programming/0x0A-argc_argv/2-args.c
+	"	1	0
+	^	19	1
+	.	19	0
+	+	19	0
+
+> ~/holbertonschool-low_level_programming/0x0A-argc_argv/1-args.c
+	"	1	0
+
+> ~/holbertonschool-low_level_programming/0x08-recursion/holberton.h
+	"	15	31
+	^	15	32
+	.	16	0
+	+	11	0
+	+	12	0
+	+	13	0
+	+	14	4
+	+	14	0
+	+	15	22
+	+	53	0
+	+	15	32
+	+	16	0
+
+> ~/holberton,h
+	"	1	0
+
+> ~/holberton
+	"	1	0
+
+> ~/100-main.c
+	"	38	0
+	^	38	1
+	.	38	0
+	+	38	0
+
+> ~/100-wildcmp.c
+	"	30	0
+	^	30	1
+	.	30	0
+	+	30	0
+
+> ~/holbertonschool-low_level_programming/0x08-recursion/7-is_palindrome.c
+	"	12	0
+	^	12	0
+	.	53	0
+	+	53	0
+
+> ~/holbertonschool-low_level_programming/0x08-recursion/7-main.c
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	20
+	+	22	0
+	+	1	1
+
+> ~/holbertonschool-low_level_programming/0x08-recursion/6-is_prime_number.c
+	"	31	0
+	^	31	1
+	.	31	0
+	+	31	0
+
+> ~/holbertonschool-low_level_programming/0x08-recursion/6-main.c
+	"	30	0
+	^	30	1
+	.	30	0
+	+	30	0
+
+> ~/holbertonschool-low_level_programming/0x08-recursion/55-sqrt_recursion.c
+	"	27	0
+	^	27	1
+	.	28	0
+	+	28	0
+
+> ~/holbertonschool-low_level_programming/0x08-recursion/5-sqrt_recursion.c
+	"	1	0
+	^	2	14
+	.	2	13
+	+	57	8
+	+	1	671
+	+	1	22
+	+	32	0
+	+	4	0
+	+	1	19
+	+	2	13
+
+> ~/holbertonschool-low_level_programming/0x08-recursion/5-main.c
+	"	1	0
+	^	3	13
+	.	3	12
+	+	3	12
+
+> ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/8-main.c
+	"	19	0
+	^	19	1
+	.	19	0
+	+	19	0
+
+> ~/holbertonschool-low_level_programming/holberton.h
+	"	1	0
+
+> ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/7-main.c
+	"	1	0
+	^	15	1
+	.	15	0
+	+	15	0
+
+> ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/7-puts_half.c
+	"	1	1
+	^	1	2
+	.	1	1
+	+	23	0
+	+	1	1
+
+> ~/holbertonschool-low_level_programming/0x06-pointers_arrays_strings/holberton.h
+	"	5	17
+	^	5	18
+	.	5	17
+	+	5	17
+
+> ~/holbertonschool-low_level_programming/0x06-pointers_arrays_strings/7-leet.c
+	"	1	0
+
+> ~/test_shell/mainsh.c
+	"	2	0
+	^	5	25
+	.	5	24
+	+	1	19
+	+	8	13
+	+	12	9
+	+	8	13
+	+	12	1
+	+	14	1
+	+	8	1
+	+	9	0
+	+	8	17
+	+	5	1
+	+	6	0
+	+	5	7
+	+	7	0
+	+	6	7
+	+	8	24
+	+	6	8
+	+	10	0
+	+	13	11
+	+	5	24
+
+> ~/test_shell/input.c
+	"	3	22
+	^	3	23
+	.	3	23
+	+	27	50
+	+	28	14
+	+	3	0
+	+	10	0
+	+	9	23
+	+	26	0
+	+	20	1
+	+	25	0
+	+	24	0
+	+	21	1
+	+	23	0
+	+	22	28
+	+	23	8
+	+	5	21
+	+	3	23
+
+> ~/test_shell/header.h
+	"	1	0
+	^	7	19
+	.	7	18
+	+	10	21
+	+	9	21
+	+	16	5
+	+	13	13
+	+	14	9
+	+	3	0
+	+	6	19
+	+	15	22
+	+	7	18
+
+> ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/10-print_comb2.c
+	"	28	0
+	^	28	1
+	.	28	0
+	+	28	0
+
+> ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
+	"	24	8
+	^	24	9
+	.	24	8
+	+	22	1
+	+	13	28
+	+	11	0
+	+	6	23
+	+	25	0
+	+	24	8
+
+> ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb
+	"	1	0
+
+> ~/holbertonschool-low_level_programming/0x00-hello_world/main.c
+	"	2	0
+
+> ~/holbertonschool-low_level_programming/0x00-hello_world/main.
+	"	1	0
+
+> ~/holbertonschool-low_level_programming/0x00-hello_world/100-intel
+	"	2	34
+	^	2	35
+	.	2	34
+	+	2	34
+
+> ~/test_shell/prompt.c
+	"	5	0
+	^	9	0
+	.	8	12
+	+	5	16
+	+	8	12
+
+> ~/test_shell/compile
+	"	2	0
+	^	2	45
+	.	2	44
+	+	1	10
+	+	2	44
+
+> ~/simple_shell/README.md
+	"	86	0
+	^	35	5
+	.	85	0
+	+	1	12
+	+	137	200
+	+	1	14
+	+	85	0
+
+> ~/simple_shell/main_shell.c
+	"	1	0
+
+> ~/simple_shell/builtins.c
+	"	1	0
+	^	16	3
+	.	16	2
+	+	16	2
+
+> ~/simple_shell/holberton.h
+	"	20	2
+	^	20	3
+	.	20	2
+	+	72	0
+	+	1	19
+	+	24	0
+	+	20	2
+
+> ~/simple_shell/makeFork.c
+	"	33	0
+	^	33	1
+	.	8	1
+	+	2	0
+	+	3	4
+	+	5	2
+	+	4	7
+	+	7	10
+	+	4	34
+	+	6	29
+	+	8	1
 
 > ~/musicianshell/wait.c
 	"	33	0
@@ -691,24 +1022,6 @@
 	+	2	2
 	+	1	0
 
-> ~/holbertonschool-low_level_programming/0x08-recursion/5-sqrt_recursion.c
-	"	32	0
-	^	2	14
-	.	2	13
-	+	57	8
-	+	1	671
-	+	1	22
-	+	32	0
-	+	4	0
-	+	1	19
-	+	2	13
-
-> ~/holbertonschool-low_level_programming/0x08-recursion/5-main.c
-	"	3	12
-	^	3	13
-	.	3	12
-	+	3	12
-
 > ~/holbertonschool-low_level_programming/0x08-recursion/_sqrt_recursion.c
 	"	1	0
 	^	30	1
@@ -718,13 +1031,6 @@
 > ~/holbertonschool-low_level_programming/0x08-recursion/_sqrt_recursion
 	"	1	0
 	^	1	0
-
-> ~/holbertonschool-low_level_programming/0x08-recursion/holberton.h
-	"	1	0
-	^	12	27
-	.	12	0
-	+	11	0
-	+	12	0
 
 > ~/holbertonschool-low_level_programming/0x08-recursion/4-main.c
 	"	1	0
@@ -836,10 +1142,3 @@
 	^	24	1
 	.	24	1
 	+	24	1
-
-> ~/holbertonschool-low_level_programming/0x15-file_io/README.md
-	"	1	468
-	^	1	469
-	.	1	400
-	+	1	0
-	+	1	400
