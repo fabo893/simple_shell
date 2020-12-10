@@ -8,19 +8,22 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/* Built ins *
+~MSle0~/bin
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
-:q
 :wq
+:q
+:WQ
 :q!
-:wwq
 :wq!
+:wwq
 
 # Search String History (newest to oldest):
+?/bin/bash
+?/usr/bin/python3
 ?/* Built ins */
 
 # Expression History (newest to oldest):
@@ -36,18 +39,87 @@ $
 	.
 
 # File marks:
-'0  40  0  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
-'1  3  18  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
-'2  75  46  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
-'3  66  46  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
-'4  80  0  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
-'5  79  17  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
-'6  42  17  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
-'7  1  1  ~/holbertonschool-low_level_programming/0x0B-malloc_free/1-strdup.c
-'8  23  0  ~/holbertonschool-low_level_programming/0x0B-malloc_free/1-main.c
-'9  17  24  ~/holbertonschool-low_level_programming/0x0B-malloc_free/holberton.h
+'0  4  3  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/3-print_alphabt.py
+'1  3  33  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/3-print_alphabt.py
+'2  3  63  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/3-print_alphabt.py
+'3  16  56  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit.py
+'4  26  0  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit.py
+'5  3  3  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/2-print_alphabet.py
+'6  31  29  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit.py
+'7  22  17  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit.py
+'8  7  4  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit_py
+'9  16  55  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit_py
 
 # Jumplist (newest first):
+-'  4  3  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/3-print_alphabt.py
+-'  1  0  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/3-print_alphabt.py
+-'  3  33  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/3-print_alphabt.py
+-'  16  56  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit.py
+-'  1  0  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit.py
+-'  26  0  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit.py
+-'  3  3  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/2-print_alphabet.py
+-'  1  0  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/2-print_alphabet.py
+-'  31  29  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit.py
+-'  22  17  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit.py
+-'  7  4  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit_py
+-'  1  0  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit_py
+-'  16  55  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit_py
+-'  3  0  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit_py
+-'  15  0  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit_py
+-'  4  0  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/0-positive_or_negative.py
+-'  1  0  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/0-positive_or_negative.py
+-'  3  13  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/0-positive_or_negative.py
+-'  10  41  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/0-positive_or_negative.py
+-'  17  52  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/README.md
+-'  1  0  ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/README.md
+-'  4  6  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/100-write.py
+-'  1  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/100-write.py
+-'  6  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/lists.h
+-'  1  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/lists.h
+-'  23  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/lists.h
+-'  5  6  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/100-write.py
+-'  5  35  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/6-concat.py
+-'  1  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/6-concat.py
+-'  4  13  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/5-print_string.py
+-'  1  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/5-print_string.py
+-'  53  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/10-main.c
+-'  1  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/10-main.c
+-'  63  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/10-linked_lists.c
+-'  1  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/10-linked_lists.c
+-'  21  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/10-check_cycle.c
+-'  1  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/10-check_cycle.c
+-'  5  9  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/8-concat_edges.py
+-'  1  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/8-concat_edges.py
+-'  2  10  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/9-easter_egg.py
+-'  1  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/9-easter_egg.py
+-'  8  43  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/7-edges.py
+-'  1  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/7-edges.py
+-'  4  23  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/6-concat.py
+-'  2  23  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/5-print_string.py
+-'  3  37  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/4-print_float.py
+-'  1  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/4-print_float.py
+-'  3  42  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/3-print_number.py
+-'  1  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/3-print_number.py
+-'  2  59  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/2-print.py
+-'  1  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/2-print.py
+-'  2  21  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/1-run_inline
+-'  1  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/1-run_inline
+-'  2  24  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/main.py
+-'  1  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/main.py
+-'  2  14  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/0-run
+-'  1  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/0-run
+-'  1  22  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/README.md
+-'  1  21  ~/holbertonschool-higher_level_programming/README.md
+-'  3  24  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/main.py
+-'  3  14  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/0-run
+-'  4  14  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/0-run
+-'  5  0  ~/holbertonschool-higher_level_programming/0x00-python-hello_world/0-run
+-'  1  0  ~/holbertonschool-higher_level_programming/0-run.pygit
+-'  1  0  ~/holbertonschool-higher_level_programming/main.py
+-'  1  0  ~/holbertonschool-higher_level_programming/0-run.py
+-'  2  6  ~/holbertonschool-higher_level_programming/0-run.py
+-'  2  24  ~/holbertonschool-higher_level_programming/python3
+-'  1  0  ~/holbertonschool-higher_level_programming/python3
 -'  40  0  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
 -'  1  0  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
 -'  3  18  ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
@@ -76,77 +148,211 @@ $
 -'  1  0  ~/holbertonschool-low_level_programming/0x0A-argc_argv/1-args.c
 -'  15  31  ~/holbertonschool-low_level_programming/0x08-recursion/holberton.h
 -'  1  0  ~/holbertonschool-low_level_programming/0x08-recursion/holberton.h
--'  53  0  ~/holbertonschool-low_level_programming/0x08-recursion/holberton.h
--'  1  0  ~/holberton,h
--'  1  0  ~/holberton
--'  38  0  ~/100-main.c
--'  1  0  ~/100-main.c
--'  30  0  ~/100-wildcmp.c
--'  1  0  ~/100-wildcmp.c
--'  12  0  ~/holbertonschool-low_level_programming/0x08-recursion/7-is_palindrome.c
--'  1  0  ~/holbertonschool-low_level_programming/0x08-recursion/7-is_palindrome.c
--'  1  1  ~/holbertonschool-low_level_programming/0x08-recursion/7-main.c
--'  14  0  ~/holbertonschool-low_level_programming/0x08-recursion/holberton.h
--'  31  0  ~/holbertonschool-low_level_programming/0x08-recursion/6-is_prime_number.c
--'  1  0  ~/holbertonschool-low_level_programming/0x08-recursion/6-is_prime_number.c
--'  13  26  ~/holbertonschool-low_level_programming/0x08-recursion/holberton.h
--'  30  0  ~/holbertonschool-low_level_programming/0x08-recursion/6-main.c
--'  1  0  ~/holbertonschool-low_level_programming/0x08-recursion/6-main.c
--'  27  0  ~/holbertonschool-low_level_programming/0x08-recursion/55-sqrt_recursion.c
--'  1  0  ~/holbertonschool-low_level_programming/0x08-recursion/55-sqrt_recursion.c
--'  1  0  ~/holbertonschool-low_level_programming/0x08-recursion/5-sqrt_recursion.c
--'  1  0  ~/holbertonschool-low_level_programming/0x08-recursion/5-main.c
--'  19  0  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/8-main.c
--'  1  0  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/8-main.c
--'  121  31  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
--'  1  0  ~/holbertonschool-low_level_programming/holberton.h
--'  1  0  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/7-main.c
--'  15  0  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/7-main.c
--'  1  1  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/7-puts_half.c
--'  120  25  ~/holbertonschool-low_level_programming/0x05-pointers_arrays_strings/holberton.h
--'  5  17  ~/holbertonschool-low_level_programming/0x06-pointers_arrays_strings/holberton.h
--'  1  0  ~/holbertonschool-low_level_programming/0x06-pointers_arrays_strings/holberton.h
--'  33  0  ~/holbertonschool-low_level_programming/0x06-pointers_arrays_strings/holberton.h
--'  1  0  ~/holbertonschool-low_level_programming/0x06-pointers_arrays_strings/7-leet.c
--'  1  0  ~/holbertonschool-low_level_programming
--'  2  0  ~/test_shell/mainsh.c
--'  1  0  ~/test_shell/mainsh.c
--'  5  24  ~/test_shell/mainsh.c
--'  3  22  ~/test_shell/input.c
--'  22  23  ~/test_shell/input.c
--'  1  0  ~/test_shell/input.c
--'  13  11  ~/test_shell/mainsh.c
--'  6  8  ~/test_shell/mainsh.c
--'  1  0  ~/test_shell/header.h
--'  4  0  ~/test_shell/input.c
--'  7  18  ~/test_shell/header.h
--'  9  21  ~/test_shell/header.h
--'  28  14  ~/test_shell/input.c
--'  8  17  ~/test_shell/mainsh.c
--'  27  48  ~/test_shell/input.c
--'  28  0  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/10-print_comb2.c
--'  1  0  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/10-print_comb2.c
--'  24  8  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
--'  1  0  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
--'  7  2  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
--'  6  23  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
--'  11  0  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
--'  25  0  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
--'  1  0  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb
--'  13  27  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
--'  19  0  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
--'  16  1  ~/holbertonschool-low_level_programming/0x01-variables_if_else_while/9-print_comb.c
--'  2  0  ~/holbertonschool-low_level_programming/0x00-hello_world/main.c
--'  1  0  ~/holbertonschool-low_level_programming/0x00-hello_world/main.c
--'  1  0  ~/holbertonschool-low_level_programming/0x00-hello_world/main.
--'  2  34  ~/holbertonschool-low_level_programming/0x00-hello_world/100-intel
--'  1  0  ~/holbertonschool-low_level_programming/0x00-hello_world/100-intel
--'  5  0  ~/test_shell/prompt.c
--'  1  0  ~/test_shell/prompt.c
--'  14  1  ~/test_shell/mainsh.c
--'  2  0  ~/test_shell/compile
 
 # History of marks within files (newest to oldest):
+
+> ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/3-print_alphabt.py
+	"	4	3
+	^	4	4
+	.	4	3
+	+	3	29
+	+	3	29
+	+	4	3
+
+> ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit.py
+	"	16	56
+	^	16	57
+	.	16	0
+	+	22	17
+	+	31	30
+	+	16	0
+
+> ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/2-print_alphabet.py
+	"	3	3
+	^	3	4
+	.	3	3
+	+	3	3
+
+> ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/1-last_digit_py
+	"	7	4
+	^	7	5
+	.	7	4
+	+	17	0
+	+	1	18
+	+	15	0
+	+	17	0
+	+	4	12
+	+	5	18
+	+	9	9
+	+	10	18
+	+	11	11
+	+	12	32
+	+	14	6
+	+	15	0
+	+	16	55
+	+	7	4
+
+> ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/0-positive_or_negative.py
+	"	4	0
+	^	4	0
+	.	3	0
+	+	11	0
+	+	2	13
+	+	3	13
+	+	1	18
+	+	3	0
+
+> ~/holbertonschool-higher_level_programming/0x01-python-if_else_loops_functions/README.md
+	"	17	52
+	^	17	53
+	.	17	0
+	+	17	0
+
+> ~/holbertonschool-higher_level_programming/0x00-python-hello_world/100-write.py
+	"	4	6
+	^	4	7
+	.	4	6
+	+	5	6
+	+	4	6
+
+> ~/holbertonschool-higher_level_programming/0x00-python-hello_world/lists.h
+	"	6	0
+	^	1	15
+	.	25	0
+	+	25	0
+
+> ~/holbertonschool-higher_level_programming/0x00-python-hello_world/6-concat.py
+	"	5	35
+	^	5	36
+	.	6	0
+	+	5	46
+	+	5	0
+	+	4	0
+	+	1	1
+	+	6	0
+
+> ~/holbertonschool-higher_level_programming/0x00-python-hello_world/5-print_string.py
+	"	4	13
+	^	4	14
+	.	4	13
+	+	2	24
+	+	4	13
+
+> ~/holbertonschool-higher_level_programming/0x00-python-hello_world/10-main.c
+	"	53	0
+	^	53	1
+	.	53	0
+	+	53	0
+
+> ~/holbertonschool-higher_level_programming/0x00-python-hello_world/10-linked_lists.c
+	"	63	0
+	^	63	1
+	.	63	0
+	+	63	0
+
+> ~/holbertonschool-higher_level_programming/0x00-python-hello_world/10-check_cycle.c
+	"	21	0
+	^	21	1
+	.	21	0
+	+	21	0
+
+> ~/holbertonschool-higher_level_programming/0x00-python-hello_world/8-concat_edges.py
+	"	5	9
+	^	5	10
+	.	5	0
+	+	5	0
+
+> ~/holbertonschool-higher_level_programming/0x00-python-hello_world/9-easter_egg.py
+	"	2	10
+	^	2	11
+	.	2	0
+	+	2	0
+
+> ~/holbertonschool-higher_level_programming/0x00-python-hello_world/7-edges.py
+	"	8	43
+	^	8	44
+	.	8	0
+	+	8	0
+
+> ~/holbertonschool-higher_level_programming/0x00-python-hello_world/4-print_float.py
+	"	3	37
+	^	3	38
+	.	3	16
+	+	3	16
+
+> ~/holbertonschool-higher_level_programming/0x00-python-hello_world/3-print_number.py
+	"	3	42
+	^	3	43
+	.	3	0
+	+	3	0
+
+> ~/holbertonschool-higher_level_programming/0x00-python-hello_world/2-print.py
+	"	2	59
+	^	2	60
+	.	2	59
+	+	2	59
+
+> ~/holbertonschool-higher_level_programming/0x00-python-hello_world/1-run_inline
+	"	2	21
+	^	2	22
+	.	2	0
+	+	2	0
+
+> ~/holbertonschool-higher_level_programming/0x00-python-hello_world/main.py
+	"	2	24
+	^	2	25
+	.	2	0
+	+	3	0
+	+	2	0
+
+> ~/holbertonschool-higher_level_programming/0x00-python-hello_world/0-run
+	"	2	14
+	^	2	15
+	.	2	0
+	+	5	0
+	+	4	0
+	+	1	0
+	+	4	8
+	+	3	0
+	+	1	0
+	+	2	0
+
+> ~/holbertonschool-higher_level_programming/0x00-python-hello_world/README.md
+	"	1	22
+	^	1	23
+	.	1	22
+	+	1	22
+
+> ~/holbertonschool-higher_level_programming/README.md
+	"	1	21
+	^	1	22
+	.	1	21
+	+	1	21
+
+> ~/holbertonschool-higher_level_programming/0-run.pygit
+	"	1	0
+
+> ~/holbertonschool-higher_level_programming/main.py
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+	+	2	0
+	+	1	0
+
+> ~/holbertonschool-higher_level_programming/0-run.py
+	"	1	0
+	^	2	7
+	.	2	7
+	+	1	0
+	+	2	7
+
+> ~/holbertonschool-higher_level_programming/python3
+	"	2	24
+	^	2	25
+	.	2	0
+	+	1	0
+	+	2	0
 
 > ~/holbertonschool-low_level_programming/0x0B-malloc_free/2-str_concat.c
 	"	40	0
@@ -926,219 +1132,3 @@ $
 
 > ~/musicianshell/launchPromp
 	"	1	0
-
-> ~/musicianshell/h
-	"	1	0
-
-> ~/musicianshell/man_1_simple_shell
-	"	48	7
-	^	48	8
-	.	39	3
-	+	5	1
-	+	26	35
-	+	39	3
-
-> ~/musicianshell/AUTHORS
-	"	4	11
-	^	4	12
-	.	4	11
-	+	4	11
-
-> ~/musicianshell/man_simple-shell
-	"	15	10
-	^	15	11
-	.	15	10
-	+	48	50
-	+	39	8
-	+	40	24
-	+	35	100
-	+	34	18
-	+	41	0
-	+	9	0
-	+	8	2
-	+	13	53
-	+	19	2
-	+	23	2
-	+	26	6
-	+	26	0
-	+	28	2
-	+	34	0
-	+	35	2
-	+	42	2
-	+	35	6
-	+	35	3
-	+	36	2
-	+	12	2
-	+	14	0
-	+	15	10
-
-> ~/musicianshell/stringHelps.c
-	"	43	0
-
-> ~/holbertonschool-low_level_programming/0x09-static_libraries/3-islower.c
-	"	12	0
-	^	12	1
-	.	13	0
-	+	13	0
-
-> ~/holbertonschool-low_level_programming/0x09-static_libraries/9-strcpy
-	"	20	0
-	^	20	1
-	.	20	0
-	+	20	0
-
-> ~/holbertonschool-low_level_programming/0x09-static_libraries/6-abs.c
-	"	14	0
-	^	14	1
-	.	14	0
-	+	14	0
-
-> ~/holbertonschool-low_level_programming/printf/holberton.h
-	"	13	16
-	^	13	17
-	.	6	18
-	+	6	18
-
-> ~/for_test.c
-	"	3	0
-	^	3	0
-	.	1	0
-	+	18	22
-	+	17	31
-	+	19	0
-	+	15	21
-	+	15	18
-	+	24	0
-	+	23	0
-	+	22	0
-	+	14	0
-	+	20	0
-	+	17	0
-	+	17	0
-	+	16	1
-	+	19	1
-	+	16	14
-	+	1	0
-	+	2	2
-	+	1	0
-
-> ~/holbertonschool-low_level_programming/0x08-recursion/_sqrt_recursion.c
-	"	1	0
-	^	30	1
-	.	30	0
-	+	30	0
-
-> ~/holbertonschool-low_level_programming/0x08-recursion/_sqrt_recursion
-	"	1	0
-	^	1	0
-
-> ~/holbertonschool-low_level_programming/0x08-recursion/4-main.c
-	"	1	0
-
-> ~/holbertonschool-low_level_programming/0x12-singly_linked_lists/100-first.c
-	"	11	0
-	^	11	0
-	.	11	0
-	+	12	0
-	+	11	0
-
-> ~/holbertonschool-low_level_programming/0x12-singly_linked_lists/100-main.c
-	"	12	0
-	^	12	1
-	.	12	0
-	+	12	0
-
-> ~/holbertonschool-low_level_programming/0x12-singly_linked_lists/4-free_list.c
-	"	21	0
-	^	21	1
-	.	21	0
-	+	21	0
-
-> ~/holbertonschool-low_level_programming/0x12-singly_linked_lists/4-main.c
-	"	25	0
-	^	25	1
-	.	25	0
-	+	25	0
-
-> ~/holbertonschool-low_level_programming/0x12-singly_linked_lists/lists.h
-	"	33	28
-	^	33	29
-	.	33	28
-	+	32	12
-	+	33	28
-
-> ~/holbertonschool-low_level_programming/0x15-file_io/3-cp.c
-	"	41	0
-	^	41	0
-	.	41	0
-	+	41	0
-
-> ~/holbertonschool-low_level_programming/0x15-file_io/2-append_text_to_file.c
-	"	30	0
-	^	30	1
-	.	30	0
-	+	30	0
-
-> ~/holbertonschool-low_level_programming/0x15-file_io/2-main.c
-	"	22	0
-	^	22	1
-	.	22	0
-	+	22	0
-
-> ~/holbertonschool-low_level_programming/0x15-file_io/holberton.h
-	"	18	8
-	^	18	9
-	.	18	8
-	+	21	0
-	+	1	0
-	+	17	0
-	+	19	0
-	+	18	8
-
-> ~/holbertonschool-low_level_programming/0x15-file_io/1-create_file.c
-	"	31	0
-	^	31	1
-	.	32	0
-	+	32	0
-
-> ~/holbertonschool-low_level_programming/0x15-file_io/1-main.c
-	"	22	0
-	^	22	1
-	.	22	0
-	+	22	0
-
-> ~/holbertonschool-low_level_programming/0x15-file_io/0-read_textfile.c
-	"	1	0
-	^	1	0
-	.	1	0
-	+	1	335
-	+	1	793
-	+	1	400
-	+	1	751
-	+	1	792
-	+	1	672
-	+	1	541
-	+	1	534
-	+	1	655
-	+	1	671
-	+	1	23
-	+	47	0
-	+	1	0
-
-> ~/holbertonschool-low_level_programming/0x15-file_io/Requiescat
-	"	27	0
-	^	27	19
-	.	27	0
-	+	27	0
-
-> ~/holbertonschool-low_level_programming/0x15-file_io/Requiscat
-	"	27	18
-	^	27	19
-	.	27	0
-	+	27	0
-
-> ~/holbertonschool-low_level_programming/0x15-file_io/0-main.c
-	"	24	0
-	^	24	1
-	.	24	1
-	+	24	1
