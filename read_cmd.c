@@ -10,6 +10,7 @@ char *rdcmd(void)
 
 	char *user_input;
 	size_t bufsize = 256;
+	ssize_t chr;
 
 	user_input = malloc(sizeof(char) * bufsize);
 	if (user_input == NULL)
@@ -17,12 +18,12 @@ char *rdcmd(void)
 		free(user_input);
 		return (0);
 	}
+	chr = getline(&user_input, &bufsize, stdin);
 
-	if (getline(&user_input, &bufsize, stdin) == -1)
+	if (chr == -1)
 	{
-		if (feof(stdin))
-			exit(EXIT_SUCCESS);
-
+		if (chr == EOF)
+			end_of_file(user_input);
 		else
 		{
 			perror("rdcmd");
