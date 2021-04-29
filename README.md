@@ -1,14 +1,6 @@
-<<<<<<< HEAD
-# holbertonschool-higher_level_programming
-# holbertonschool-higher_level_programming
-# holbertonschool-higher_level_programming
-# holbertonschool-higher_level_programming
-# holbertonschool-higher_level_programming
-# holbertonschool-higher_level_programming
-=======
 # SIMPLE_SHELL
 ---
-Our Shell is meant to work as the santard /bash/sh regular Shell interface
+Our Shell is meant to work as the stantard /bash/sh regular Shell interface
 and will accept commands given by the user, validate the input, look for
 the existence of the command in the PATH and execute it or write to STDERR
 in case of failure.
@@ -20,7 +12,7 @@ This repository and its contents are meant to be compiled in the
 following manner:
 
 ```
-gcc -Wall -Werror -Wextra -pedantic \*.c -o hsh
+gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 ```
 
 For convenience the repo contains an executable script that will
@@ -91,5 +83,3 @@ to freed pointers etc...
 contain info about leaks from the commands getting executed. Ex 'ls'
 trows many leaks which have nothing to do with our Simple_Shell*
 
-
->>>>>>> 6012abd04eeade422f08467a5693ef731bda4c32
