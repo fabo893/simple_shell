@@ -10,10 +10,10 @@ int _sexit(void);
 int _cd(char **tokens);
 
 /* Builtins array of strings */
-char *str_builtins[] = {"exit"};
+char *str_builtins[1] = {"exit"};
 
 
-int (*fun_builtins[])(void) = {&_sexit};
+int (*fun_builtins[1])(void) = {&_sexit};
 
 
 
