@@ -13,7 +13,6 @@ void launchPrompt(void)
 	if (isatty(STDIN_FILENO))
 		write(STDOUT_FILENO, prompt, 2);
 
-	//signal(SIGINT, handler);
 	while (status)
 	{
 		input = rdcmd();
